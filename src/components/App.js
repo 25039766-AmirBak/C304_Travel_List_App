@@ -24,6 +24,7 @@ function Form({onAddItem}) {
       quantity,
       packed: false,
     };
+  
 
     onAddItem(newItem);
     setDesc("");
@@ -47,6 +48,7 @@ function Form({onAddItem}) {
       
     </form>
   );
+}
 
 function PackingList({itemProp}) {
 
@@ -94,7 +96,6 @@ function App() {
       <Stats />
     </div>
   );
-}
 }
 
 export default App;
